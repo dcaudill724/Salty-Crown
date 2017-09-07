@@ -7,11 +7,11 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 namespace SaltyCrown {
-    public class App : Game {
+    public class Engine : Game {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public App() {
+        public Engine() {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
