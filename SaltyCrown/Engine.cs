@@ -1,6 +1,6 @@
 ﻿//Authors:
 //Noah Tranbarger
-//Dustin Caudill big ol test
+//Dustin Caudill
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
