@@ -44,8 +44,11 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AssetPool.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="MessageHub.cs" />
+    <Compile Include="MessageSystem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

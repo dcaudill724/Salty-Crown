@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Noah\Home\SaltyCrown\SaltyCrown\bin\Windows\x86\Debug\SaltyCrown.exe
 C:\Users\Noah\Home\SaltyCrown\SaltyCrown\bin\Windows\x86\Debug\SaltyCrown.pdb
 C:\Users\Noah\Home\SaltyCrown\SaltyCrown\bin\Windows\x86\Debug\MonoGame.Framework.dll
@@ -23,3 +24,30 @@ C:\Users\Noah\Home\SaltyCrown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.Direct3D9
 C:\Users\Noah\Home\SaltyCrown\SaltyCrown\obj\x86\Debug\SaltyCrown.csprojResolveAssemblyReference.cache
 C:\Users\Noah\Home\SaltyCrown\SaltyCrown\obj\x86\Debug\SaltyCrown.exe
 C:\Users\Noah\Home\SaltyCrown\SaltyCrown\obj\x86\Debug\SaltyCrown.pdb
+=======
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SaltyCrown.exe
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SaltyCrown.pdb
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.RawInput.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.RawInput.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\obj\x86\Debug\SaltyCrown.csprojResolveAssemblyReference.cache
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\obj\x86\Debug\SaltyCrown.exe
+C:\Users\Dustin\Desktop\Repositories\salty-crown\SaltyCrown\obj\x86\Debug\SaltyCrown.pdb
+>>>>>>> 29e636b6e8e54d09dec882f08d88ad344ce80ebf
