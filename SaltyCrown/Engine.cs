@@ -17,6 +17,8 @@ namespace SaltyCrown {
         }
         
         protected override void Initialize() {
+            AssetPool.ParseAssets("../../../../bitchmade.asc");
+
             base.Initialize();
         }
 
