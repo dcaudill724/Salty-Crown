@@ -22,10 +22,7 @@ namespace SaltyCrown {
 
         public static void SendMessage(Message message) {
             for (var i = 0; i < messageHubs.Count; i++) {
-                var hub = messageHubs[i];
-                if (hub.Needs(message)) {
-                    hub.HandleMessage(message);
-                }
+                messageHubs[i].HandleMessage(message);
             }
         }
     }

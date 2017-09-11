@@ -2,6 +2,7 @@
     public enum Message {
         MouseClick,
         MouseMove,
-        KeyPress
+        KeyPress,
+        ScreenChange
     }
 }
