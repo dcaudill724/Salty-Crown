@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Dustin/Desktop/Repositories/salty-crown/SaltyCrown/Content/icons/Sundial.png</SourceFile>
-  <SourceTime>2017-09-11T10:59:18.3429906-04:00</SourceTime>
+  <SourceFile>C:/Users/Dustin/Desktop/Repositories/salty-crown/SaltyCrown/Content/icons/Sundial.gif</SourceFile>
+  <SourceTime>2017-09-13T08:47:33.1670199-04:00</SourceTime>
   <DestFile>C:/Users/Dustin/Desktop/Repositories/salty-crown/SaltyCrown/Content/bin/Windows/icons/Sundial.xnb</DestFile>
-  <DestTime>2017-09-11T11:01:39.5110568-04:00</DestTime>
+  <DestTime>2017-09-13T08:54:40.7805831-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
