@@ -1,7 +1,16 @@
 ﻿using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
+using System.Text.RegularExpressions;
 
 namespace SaltyCrown {
-    class Initialization {
-        List<Asset> assets = new List<Asset>();
+    class Init {
+        List<Screen> screens = new List<Screen>();
+
+        public bool Execute() {
+            Asset playButton = new Asset();
+
+            return true;
+        }
     }
 }
