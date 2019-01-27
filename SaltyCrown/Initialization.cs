@@ -8,7 +8,6 @@ namespace SaltyCrown {
         List<Screen> screens = new List<Screen>();
 
         public bool Execute() {
-            Asset playButton = new Asset();
 
             return true;
         }
