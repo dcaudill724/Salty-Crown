@@ -4,12 +4,6 @@ namespace SaltyCrown {
     public static class MessageSystem {
         private static List<MessageHub> messageHubs;
 
-        private static Dictionary<Message, List<MessageHub>> map = new Dictionary<Message, List<MessageHub>>{
-            { Message.MouseClick, new List<MessageHub> {
-
-            }},
-        };
-
         static MessageSystem() {
             messageHubs = new List<MessageHub>();
         }
@@ -20,9 +14,9 @@ namespace SaltyCrown {
             }
         }
 
-        public static void SendMessage(Message message) {
+        public static void SendMessage(string message, object[] parameters) {
             for (var i = 0; i < messageHubs.Count; i++) {
-                messageHubs[i].HandleMessage(message);
+                messageHubs[i].HandleMessage(message, parameters);
             }
         }
     }

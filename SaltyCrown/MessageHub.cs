@@ -1,5 +1,5 @@
 ﻿namespace SaltyCrown {
     public interface MessageHub {
-        void HandleMessage(Message message);
+        void HandleMessage(string message, object[] parameters);
     }
 }

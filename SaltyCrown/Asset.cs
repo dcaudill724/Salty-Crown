@@ -40,7 +40,7 @@ namespace SaltyCrown {
 
         }
 
-        public void HandleMessage(Message message) {
+        public void HandleMessage(string message, object[] parameters) {
             try {
 
             } catch { }
