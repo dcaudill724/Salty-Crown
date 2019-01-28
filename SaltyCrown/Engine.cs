@@ -12,7 +12,6 @@ namespace SaltyCrown {
     public class Engine : Game {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        AssetPool assetPool = new AssetPool();
 
         public Engine() {
             graphics = new GraphicsDeviceManager(this);
@@ -21,6 +20,7 @@ namespace SaltyCrown {
         
         protected override void Initialize() {
             base.Initialize();
+            Init.Execute(graphics.GraphicsDevice);
         }
 
         protected override void LoadContent() {
@@ -34,13 +34,12 @@ namespace SaltyCrown {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape)) {
                 Exit();
             }
-            assetPool.Update(gameTime);
+            Input.ReadInput();
             base.Update(gameTime);
         }
         
         protected override void Draw(GameTime gameTime) {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            assetPool.Draw(gameTime);
             base.Draw(gameTime);
         }
     }

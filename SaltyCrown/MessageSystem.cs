@@ -21,3 +21,10 @@ namespace SaltyCrown {
         }
     }
 }
+
+/* ~~Message naming conventions~~
+ * 
+ * ~ mouseClick
+ * ~ screenChange
+ * ~ keyPress
+ */

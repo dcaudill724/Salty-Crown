@@ -9,9 +9,9 @@ namespace SaltyCrown {
             this.assets = assets;
         }
 
-        public void changeScreenName(string screenName) {
+        public void changeScreen(string screenName) {
             CurrentScreenName = screenName;
-            MessageSystem.SendMessage(Message.ScreenChange);
+            MessageSystem.SendMessage("ScreenChange", new string[] {screenName});
         }
 
         public void Draw(GameTime gameTime) {
