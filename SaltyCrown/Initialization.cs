@@ -15,8 +15,10 @@ namespace SaltyCrown {
                     new Asset(200, 200, 200, 200,
                         game.Content.Load<Texture2D>("Images/supernova"),
                         new Dictionary<string, Action<object[]>>() {
-                            { "mouseClick", new Action<object[]>(delegate(object[] parameters) {
-                                Console.WriteLine("hello"); }
+                            { "mouseClick", new Action<object[]>(
+                                delegate(object[] parameters) {
+                                    Console.WriteLine("hello");
+                                }
                             )},
                             { "keyPress", new Action<object[]> (
                                 delegate(object[] parameters) {

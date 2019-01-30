@@ -14,8 +14,6 @@ namespace SaltyCrown {
         private Texture2D texture;
         private Dictionary<string, Action<object[]>> events;
 
-        
-
         public Asset(int x, int y, int width, int height, Animation animation, Dictionary<string, Action<object[]>> events) {
             this.x = x;
             this.y = y;
