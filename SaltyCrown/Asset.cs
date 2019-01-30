@@ -10,13 +10,13 @@ namespace SaltyCrown {
         private int width;
         private int height;
         private Rectangle bounds => new Rectangle(x, y, width, height);
-        private object[] animation; //[spritesheet.png, rows, columns, animation speed]
+        private Animation animation;
         private Texture2D texture;
         private Dictionary<string, Action<object[]>> events;
 
         
 
-        public Asset(int x, int y, int width, int height, object[] animation, Dictionary<string, Action<object[]>> events) {
+        public Asset(int x, int y, int width, int height, Animation animation, Dictionary<string, Action<object[]>> events) {
             this.x = x;
             this.y = y;
             this.width = width;
