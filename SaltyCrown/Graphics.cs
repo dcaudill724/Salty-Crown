@@ -23,7 +23,7 @@ namespace SaltyCrown {
             spriteBatch.Begin();
             try {
                 screens[currentScreen].Draw(gameTime, ref spriteBatch);
-            } catch { }
+            } catch { /*If stuff stops drawing, check here*/ }
             spriteBatch.End();
         }
     }

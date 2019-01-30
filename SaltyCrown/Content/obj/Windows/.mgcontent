@@ -4,11 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Dustin/Documents/Source/Repos/Salty Crown/SaltyCrown/Content/icons/Sundial.gif</File>
-    <File>C:/Users/Dustin/Documents/Source/Repos/Salty Crown/SaltyCrown/Content/Images/knight.png</File>
+    <File>C:/Users/Noah/Documents/Source/Repos/Salty Crown/SaltyCrown/Content/icons/Sundial.gif</File>
+    <File>C:/Users/Noah/Documents/Source/Repos/Salty Crown/SaltyCrown/Content/Images/knight.png</File>
+    <File>C:/Users/Noah/Documents/Source/Repos/Salty Crown/SaltyCrown/Content/Images/supernova.png</File>
   </SourceFiles>
-  <DestFiles>
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-  </DestFiles>
 </SourceFileCollection>

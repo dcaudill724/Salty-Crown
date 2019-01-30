@@ -9,10 +9,13 @@ namespace SaltyCrown {
         private int y;
         private int width;
         private int height;
+        private Rectangle bounds => new Rectangle(x, y, width, height);
         private object[] animation; //[spritesheet.png, rows, columns, animation speed]
         private Texture2D texture;
         private Dictionary<string, Action<object[]>> events;
+
         
+
         public Asset(int x, int y, int width, int height, object[] animation, Dictionary<string, Action<object[]>> events) {
             this.x = x;
             this.y = y;
@@ -38,10 +41,7 @@ namespace SaltyCrown {
         }
 
         public void Draw(GameTime gameTime, ref SpriteBatch spriteBatch) {
-            // Rectangle spriteBorders = new Rectangle(x, y, width, height);
-            //spriteBatch.Draw(texture, spriteBorders, Color.Black);
-
-            
+            spriteBatch.Draw(texture, bounds, Color.White);
         }
 
         public void HandleMessage(string message, object[] parameters) {

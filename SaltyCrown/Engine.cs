@@ -5,8 +5,6 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using System;
-using System.IO;
 
 namespace SaltyCrown {
     public class Engine : Game {
@@ -34,19 +32,14 @@ namespace SaltyCrown {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape)) {
                 Exit();
             }
+
             Input.ReadInput();
-           
             base.Update(gameTime);
         }
         
         protected override void Draw(GameTime gameTime) {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             Graphics.Draw(gameTime, ref spriteBatch);
-            BlendState blendState = new BlendState();
-            spriteBatch.Begin();
-            Texture2D rect = Content.Load<Texture2D>("Images/knight");
-            spriteBatch.Draw(rect, new Rectangle(200, 200, 200, 200), Color.Transparent);
-            spriteBatch.End();
             base.Draw(gameTime);
         }
     }

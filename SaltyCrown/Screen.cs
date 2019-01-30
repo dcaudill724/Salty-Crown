@@ -8,7 +8,6 @@ namespace SaltyCrown {
 
         public Screen(Asset[] assets, string name) {
             this.assets = assets;
-            System.Console.WriteLine(name);
             Name = name;
         }
 
