@@ -10,18 +10,26 @@ namespace SaltyCrown {
     public static class Init {
         private static List<Screen> screens = new List<Screen>();
 
-        public static bool Execute(GraphicsDevice graphics) {
+        public static bool Execute(GraphicsDevice graphics, SpriteBatch spriteBatch, Game game) {
+            Graphics.Initialize();
 
-            Asset test = new Asset(200, 200, 200, 200, new Texture2D(graphics, 2, 2), new Dictionary<string, Action<object[]>>() {
-                {"mouseClick", new Action<object[]>(delegate(object[] parameters){
-                    Console.WriteLine("hello");
-                })},
-                {"keyPress", new Action<object[]>(delegate(object[] parameters){
-                    if(parameters[0].ToString() == "D") {
-                        Console.WriteLine("Gang");
-                    }
-                })}
-            });
+            Graphics.AddScreen(
+                new Screen(new Asset[] {
+                    new Asset(200, 200, 200, 200, game.Content.Load<Texture2D>("Images/knight"), new Dictionary<string, Action<object[]>>() {
+                        {"mouseClick", new Action<object[]>(delegate(object[] parameters){
+                            Console.WriteLine("hello");
+                        })},
+                        {"keyPress", new Action<object[]>(delegate(object[] parameters){
+                            if(parameters[0].ToString() == "D") {
+                                Console.WriteLine("Gang");
+                            }
+                        })}
+                    })
+                }, "mainMenu")
+            );
+
+            
+            Graphics.ChangeScreen("mainMenu");
             return true;
         }
     }

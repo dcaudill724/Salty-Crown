@@ -50,3 +50,4 @@ C:\Users\Dustin\Documents\Source\Repos\Salty Crown\SaltyCrown\obj\x86\Debug\Salt
 C:\Users\Dustin\Documents\Source\Repos\Salty Crown\SaltyCrown\bin\Windows\x86\Debug\Newtonsoft.Json.dll
 C:\Users\Dustin\Documents\Source\Repos\Salty Crown\SaltyCrown\bin\Windows\x86\Debug\Newtonsoft.Json.pdb
 C:\Users\Dustin\Documents\Source\Repos\Salty Crown\SaltyCrown\bin\Windows\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Dustin\Documents\Source\Repos\Salty Crown\SaltyCrown\bin\Windows\x86\Debug\Content\Images\knight.xnb

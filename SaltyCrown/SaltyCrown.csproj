@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Engine.cs" />
     <Compile Include="Asset.cs" />
+    <Compile Include="Graphics.cs" />
     <Compile Include="Initialization.cs" />
     <Compile Include="Input.cs" />
     <Compile Include="MessageHub.cs" />

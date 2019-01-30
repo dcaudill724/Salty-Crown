@@ -1,22 +1,20 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace SaltyCrown {
     public class Screen { 
-        public string CurrentScreenName = "";
-        Asset[] assets;
+        private Asset[] assets;
+        public string Name;
 
-        public Screen(Asset[] assets) {
+        public Screen(Asset[] assets, string name) {
             this.assets = assets;
+            System.Console.WriteLine(name);
+            Name = name;
         }
 
-        public void changeScreen(string screenName) {
-            CurrentScreenName = screenName;
-            MessageSystem.SendMessage("ScreenChange", new string[] {screenName});
-        }
-
-        public void Draw(GameTime gameTime) {
+        public void Draw(GameTime gameTime, ref SpriteBatch spriteBatch) {
             foreach (Asset a in assets) {
-                a.Draw(gameTime);
+                a.Draw(gameTime, ref spriteBatch);
             }
         }
 

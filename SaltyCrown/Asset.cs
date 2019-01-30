@@ -37,8 +37,11 @@ namespace SaltyCrown {
 
         }
 
-        public void Draw(GameTime gameTime) {
+        public void Draw(GameTime gameTime, ref SpriteBatch spriteBatch) {
+            // Rectangle spriteBorders = new Rectangle(x, y, width, height);
+            //spriteBatch.Draw(texture, spriteBorders, Color.Black);
 
+            
         }
 
         public void HandleMessage(string message, object[] parameters) {
